@@ -50,7 +50,7 @@ int main(int argc, char **argv)
             send(aSock, send_data, strlen(send_data), 0);
         else {
             send(aSock, send_data, strlen(send_data), 0);
-            printf("Disconnected ... \n");
+            printf("Disconnected... \n");
             close(aSock);
             break;
         }
