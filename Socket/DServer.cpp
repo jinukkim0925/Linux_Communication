@@ -41,11 +41,11 @@ int main(int argc, char **argv){
     }
 
     if (bind(aServerFd, (struct sockaddr *)&aServerAddress, sizeof(aServerAddress)) < 0) {
-        printf("Server : Can not bind local address\n");
+        printf("Server : Can not bind local address \n");
         exit(0);
     }
 
-    printf("Server : Wating Connection ...\n");
+    printf("Server : Wating Connection ... \n");
 
     while (1) { 
         aClientLen = sizeof(struct sockaddr_un);
