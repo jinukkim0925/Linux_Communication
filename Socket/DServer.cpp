@@ -18,7 +18,7 @@ typedef struct{
 } TPack;
 
 int main(int argc, char **argv){ 
-    TPack aPack, aTmpPack;
+    TPack aPack;
     struct sockaddr_un aServerAddress, aClientAddress;
     int aServerFd, aClientFd;
     int aClientSize;
